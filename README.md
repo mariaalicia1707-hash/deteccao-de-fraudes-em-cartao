@@ -43,17 +43,16 @@ O desempenho foi avaliado utilizando três métricas principais da classe de fra
 
 ### Resultados
 
+
 | Modelo | Precision | Recall | F1-score |
-|---|---|---|---|
-| Regressão Logística | A preencher | A preencher | A preencher |
-| Random Forest | A preencher | A preencher | A preencher |
-| XGBoost | A preencher | A preencher | A preencher |
-| Logística com Undersampling | A preencher | A preencher | A preencher |
-| Logística com SMOTE | A preencher | A preencher | A preencher |
+|---|---:|---:|---:|
+| Regressão Logística | 0.872881 | 0.695946 | 0.774436 |
+| Random Forest | 0.743750 | 0.804054 | 0.772727 |
+| XGBoost | 0.942623 | 0.777027 | 0.851852 |
+| Logística com Undersampling | 0.048417 | 0.878378 | 0.091776 |
+| Logística com SMOTE | 0.113327 | 0.844595 | 0.199840 |
 
-Os resultados permitem comparar o desempenho dos modelos e observar como as técnicas de balanceamento influenciam a identificação de fraudes.
-
-Além disso, foram utilizadas as curvas ROC e Precision-Recall para complementar a avaliação.
+O XGBoost apresentou o melhor resultado geral, alcançando o maior Precision (0.942623) e o maior F1-score (0.851852). Já o modelo com Undersampling apresentou o maior Recall (0.878378), identificando uma parcela maior das fraudes, porém com uma quantidade elevada de falsos positivos. Os resultados mostram que existe um equilíbrio importante entre identificar fraudes e evitar classificações incorretas.
 
 ## Ajuste do limiar de decisão (Threshold)
 
