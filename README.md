@@ -71,9 +71,26 @@ Foram geradas visualizações para analisar:
 - A importância geral das variáveis nas previsões do modelo.
 - A influência das variáveis em uma previsão individual.
 
-Os gráficos permitem observar quais características tiveram maior influência nas decisões do modelo e compreender melhor como as classificações são realizadas.
+1. Primeiro gráfico — importância geral das variáveis
+Esse gráfico mostra quais variáveis tiveram maior influência no modelo considerando as 100 transações analisadas pelo SHAP.
 
-**Principais variáveis identificadas:** preencher após conferir o gráfico SHAP.
+As cinco primeiras são:
+1. V4 — 1.6
+2. V14 — 1.43
+3. V12 — 0.52
+4. V10 — 0.40
+5. V3 — 0.36
+
+A análise SHAP identificou as variáveis V4, V14, V12, V10 e V3 como as cinco principais em importância global para as previsões do modelo. Essas variáveis apresentaram maior influência média nas decisões do XGBoost.
+
+2. Segundo gráfico — explicação de uma previsão específica
+Esse é o Waterfall. Ele mostra como as variáveis influenciaram uma única previsão.
+
+Nesse exemplo:
+- V14, V4 e V12 contribuíram para diminuir o valor da saída do modelo.
+- V21 e V20 contribuíram para aumentar esse valor.
+- As demais variáveis também tiveram suas contribuições.
+As cores representam a direção da contribuição: azul diminui o valor da saída e rosa aumenta.
 
 ## Alterações e melhorias 
 
