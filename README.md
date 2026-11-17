@@ -100,7 +100,7 @@ Em relação à estrutura inicial utilizada como referência no desafio, foram r
 - XGBoost
 - SHAP
 
-## Aprendizados
+## Aprendizagem
 
 O desenvolvimento deste projeto permitiu praticar conceitos de Machine Learning, principalmente classificação, preparação de dados, tratamento de classes desbalanceadas, avaliação de modelos e explicabilidade.
 
