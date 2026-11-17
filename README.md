@@ -76,7 +76,7 @@ Os gráficos permitem observar quais características tiveram maior influência 
 
 **Principais variáveis identificadas:** preencher após conferir o gráfico SHAP.
 
-## Alterações e melhorias em relação à versão da Expert
+## Alterações e melhorias 
 
 Em relação à estrutura inicial utilizada como referência no desafio, foram realizadas melhorias e adaptações, incluindo:
 
